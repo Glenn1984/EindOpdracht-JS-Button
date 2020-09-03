@@ -30,7 +30,7 @@ document.getElementById("listGrey").addEventListener("click", () => {
 // Red
 
 document.getElementById("listRed").addEventListener("click", () => {
-    background.className = "";
+    background.className = "backgroundIsRed";
     main.className = "";
     document.getElementById("colorText").innerHTML = "De kleur is rood!";
 });
@@ -39,7 +39,7 @@ document.getElementById("listRed").addEventListener("click", () => {
 // Blue
 
 document.getElementById("listBlue").addEventListener("click", () => {
-    background.className = "";
+    background.className = "backgroundIsBlue";
     main.className = "";
     document.getElementById("colorText").innerHTML = "De kleur is blauw!";
 });
@@ -48,7 +48,7 @@ document.getElementById("listBlue").addEventListener("click", () => {
 // Green
 
 document.getElementById("listGreen").addEventListener("click", () => {
-    background.className = "";
+    background.className = "backgroundIsGreen";
     main.className = "";
     document.getElementById("colorText").innerHTML = "De kleur is groen!";
 });
@@ -57,7 +57,7 @@ document.getElementById("listGreen").addEventListener("click", () => {
 // Orange
 
 document.getElementById("listOrange").addEventListener("click", () => {
-    background.className = "";
+    background.className = "backgroundIsOrange";
     main.className = "";
     document.getElementById("colorText").innerHTML = "De kleur is oranje!";
 });
@@ -66,7 +66,7 @@ document.getElementById("listOrange").addEventListener("click", () => {
 // Purple
 
 document.getElementById("listPurple").addEventListener("click", () => {
-    background.className = "";
+    background.className = "backgroundIsPurple";
     main.className = "";
     document.getElementById("colorText").innerHTML = "De kleur is paars!";
 });
