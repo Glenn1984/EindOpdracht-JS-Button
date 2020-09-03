@@ -21,7 +21,7 @@ hamburgerIcon.addEventListener("click", () => {
 // Grey
 
 document.getElementById("listGrey").addEventListener("click", () => {
-    background.className = "";
+    background.className = "backgroundIsGrey";
     main.className = "";
     document.getElementById("colorText").innerHTML = "De kleur is grijs!";
 });

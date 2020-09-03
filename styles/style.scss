@@ -125,24 +125,33 @@ i {
 
 // ColorsChanger
 
+.backgroundIsGrey {
+    color: #F2F3F4;
+    background-color: #d7dbdd;
+}
 
 .backgroundIsRed {
+    color: #ffb3ba;
     background: red;
 }
 
 .backgroundIsBlue {
+    color: #bae1ff;
     background: blue;
 }
 
 .backgroundIsGreen {
+    color: #baffc9;
     background: green;
 }
 
 .backgroundIsOrange {
+    color: #ffdfba;
     background: orange;
 }
 
 .backgroundIsPurple {
+    color: #efbbff;
     background: purple;
 }
 
