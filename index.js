@@ -10,7 +10,7 @@ const hamburgerIcon = document.getElementById("hamburger__icon");
 
 // HamburgerChangerOnMain
 
-hamburgerIcon.addEventListener("click", function () {
+hamburgerIcon.addEventListener("click", () => {
     main.classList.toggle('hamburgerIsWorking');
 });
 
@@ -20,65 +20,116 @@ hamburgerIcon.addEventListener("click", function () {
 
 // Grey
 
-const colorGrey = document.getElementById("listGrey");
-
-const listGrey = function () {
+document.getElementById("listGrey").addEventListener("click", () => {
     background.className = "";
     main.className = "";
-};
-colorGrey.addEventListener("click", listGrey);
+    document.getElementById("colorText").innerHTML = "De kleur is grijs!";
+});
+
+
+
+
+// const colorGrey = document.getElementById("listGrey")
+
+// const listGrey = () => {
+//     background.className = "";
+//     main.className = "";
+//     document.getElementById("colorText").innerHTML = "The color is grey!";
+    
+// };
+// colorGrey.addEventListener("click", listGrey);
 
 
 // Red
 
-const colorRed = document.getElementById("listRed");
-
-const listRed = function () {
-    background.className = "backgroundIsRed";
+document.getElementById("listRed").addEventListener("click", () => {
+    background.className = "";
     main.className = "";
-};
-colorRed.addEventListener("click", listRed);
+    document.getElementById("colorText").innerHTML = "De kleur is rood!";
+});
+
+
+// const colorRed = document.getElementById("listRed");
+
+// const listRed = function () {
+//     background.className = "backgroundIsRed";
+//     main.className = "";
+//     document.getElementById("colorText").innerHTML = "De kleur is rood!";
+// };
+// colorRed.addEventListener("click", listRed);
 
 
 // Blue
 
-const colorBlue = document.getElementById("listBlue");
-
-const listBlue = function () {
-    background.className = "backgroundIsBlue";
+document.getElementById("listBlue").addEventListener("click", () => {
+    background.className = "";
     main.className = "";
-};
-colorBlue.addEventListener("click", listBlue);
+    document.getElementById("colorText").innerHTML = "De kleur is blauw!";
+});
+
+
+// const colorBlue = document.getElementById("listBlue");
+
+// const listBlue = function () {
+//     background.className = "backgroundIsBlue";
+//     main.className = "";
+//     document.getElementById("colorText").innerHTML = "De kleur is blauw!";
+// };
+// colorBlue.addEventListener("click", listBlue);
 
 
 // Green
 
-const colorGreen = document.getElementById("listGreen");
-
-const listGreen = function () {
-    background.className = "backgroundIsGreen";
+document.getElementById("listGreen").addEventListener("click", () => {
+    background.className = "";
     main.className = "";
-};
-colorGreen.addEventListener("click", listGreen);
+    document.getElementById("colorText").innerHTML = "De kleur is groen!";
+});
+
+
+// const colorGreen = document.getElementById("listGreen");
+
+// const listGreen = function () {
+//     background.className = "backgroundIsGreen";
+//     main.className = "";
+//     document.getElementById("colorText").innerHTML = "De kleur is groen!";
+// };
+// colorGreen.addEventListener("click", listGreen);
 
 
 // Orange
 
-const colorOrange = document.getElementById("listOrange");
-
-const listOrange = function () {
-    background.className = "backgroundIsOrange";
+document.getElementById("listOrange").addEventListener("click", () => {
+    background.className = "";
     main.className = "";
-};
-colorOrange.addEventListener("click", listOrange);
+    document.getElementById("colorText").innerHTML = "De kleur is oranje!";
+});
+
+
+// const colorOrange = document.getElementById("listOrange");
+
+// const listOrange = function () {
+//     background.className = "backgroundIsOrange";
+//     main.className = "";
+//     document.getElementById("colorText").innerHTML = "De kleur is oranje!";
+// };
+// colorOrange.addEventListener("click", listOrange);
 
 
 // Purple
 
-const colorPurple = document.getElementById("listPurple");
-
-const listPurple = function () {
-    background.className = "backgroundIsPurple";
+document.getElementById("listPurple").addEventListener("click", () => {
+    background.className = "";
     main.className = "";
-};
-colorPurple.addEventListener("click", listPurple);
+    document.getElementById("colorText").innerHTML = "De kleur is paars!";
+});
+
+
+// const colorPurple = document.getElementById("listPurple");
+
+// const listPurple = function () {
+//     background.className = "backgroundIsPurple";
+//     main.className = "";
+//     document.getElementById("colorText").innerHTML = "De kleur is paars!";
+// };
+// colorPurple.addEventListener("click", listPurple);
